@@ -1,0 +1,14 @@
+*.log
+httplogs
+.gradle
+/build/*
+/bin
+/target
+*.tex
+*.pdf
+*.iml
+*.ipr
+*.iws
+.idea/
+.DS_Store
+.classpath
