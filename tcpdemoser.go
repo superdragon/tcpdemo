@@ -73,6 +73,7 @@ func main() {
 		if err != nil {
 			continue
 		}
+		//每接受一个连接,就开启一个协程处理,所以Go很容易实现高并发的TCP服务器
 		go handleClient(conn) //创建一个goroutinue处理
 	}
 }
