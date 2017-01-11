@@ -7,12 +7,10 @@
 使用命令 `telnet 127.0.0.1 2134` 默认客户端,连接TCP服务。
 
 ```
-
 $ telnet 127.0.0.1 2134
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
-
 ```
 
 * 输入 `time`,服务会返回当前时间。
